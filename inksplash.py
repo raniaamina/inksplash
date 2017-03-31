@@ -19,5 +19,5 @@ while True:
             subprocess.Popen(["kill", splashpid])
             break
     except subprocess.CalledProcessError:
-        pass	
+        pass
 
